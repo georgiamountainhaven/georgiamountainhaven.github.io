@@ -101,8 +101,20 @@ tbody td {
 }
 
 td:not(:empty):not(:first-child) {
-    background: palegreen;
+    #background: palegreen;
+    background: #00ff80;
+    color: black;
 }
+/* colors
+ * https://www.canva.com/colors/color-wheel/
+#00ff00
+#00ff80
+#80ff00
+
+#0080FF
+#FF00FF
+#FF8000
+*/
 
 /*
 a:hover {
