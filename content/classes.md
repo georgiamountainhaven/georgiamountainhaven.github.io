@@ -1,10 +1,12 @@
 ---
 title: "Classes"
 date: 2023-05-31T18:12:42-04:00
-draft: true
+draft: draft
 ---
 
 Classes are available to anyone; require zoom to join.  Saturday To-Shin Do is in person with zoom as an alternative, depending on weather and health conditions.
+
+_Please consult your personal physician before beginning any workout practice, including yoga._
 
 ## Yoga
 
