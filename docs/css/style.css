@@ -1,0 +1,141 @@
+* {
+    /*
+    inconsolata
+    fira code
+    */
+}
+
+body {
+    background: black;
+    color: green;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "DejaVu Sans Mono", sans-serif,  monospace;
+}
+
+header,
+footer {
+    flex-basis: 100%;
+    flex-shrink: 0;
+}
+
+footer {
+    text-align: center;
+    /*
+    position: fixed;
+    bottom: 10px;
+    */
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    flex-basis: 75%;
+}
+
+body > nav {
+    flex-basis: content;
+    min-width: 10em;
+}
+
+.subtitle {
+    font-size: small;
+    color: lightgreen;
+}
+
+.article {
+    width: 90%;
+}
+
+#sidebar {
+    width: 10%;
+}
+
+/**
+ * anchor links
+a:link {
+  color: greenyellow;
+}
+
+a:visited {
+  color: lightgreen;
+}
+ */
+a {
+    color: lightgreen;
+}
+header a:hover,
+nav a:hover {
+    background-color: darkgreen;
+}
+
+header a,
+nav a {
+    text-decoration: none;
+}
+
+/* table formatting */
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border-bottom: 1px solid green;
+}
+
+th:first-child,
+td:first-child {
+    border-right: 1px solid green;
+}
+
+th, td {
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+td:not(:empty):not(:first-child) {
+    #background: palegreen;
+    background: #00ff80;
+    color: black;
+}
+/* colors
+ * https://www.canva.com/colors/color-wheel/
+#00ff00
+#00ff80
+#80ff00
+
+#0080FF
+#FF00FF
+#FF8000
+*/
+
+/*
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+} 
+*/
+
+/**
+ * not used
+ */
+.left {
+}
+
+.right {
+}
+
+.flex {
+    display: flex;
+}
+
