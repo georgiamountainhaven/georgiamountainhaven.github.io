@@ -19,4 +19,7 @@ Monday and Wednesday are general fitness and vary in exercises throughout the mo
 
 ## To-Shin Do
 
-Personal self defense with mindfulness practice and philosophy.  For more information about To-Shin Do visit the [Hombu](http://ninjaselfdefnse.com "Ninja Self Defnse")
+Personal self defense with mindfulness practice and philosophy.
+<!--
+For more information about To-Shin Do visit the [Hombu](https://www.ninjaselfdefense.com "Ninja Self Defense")
+-->
