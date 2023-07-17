@@ -5,9 +5,6 @@
     */
 }
 
-/**
- * Overall layout
- */
 body {
     background: black;
     color: green;
@@ -44,23 +41,17 @@ body > nav {
     min-width: 10em;
 }
 
+.subtitle {
+    font-size: small;
+    color: lightgreen;
+}
+
 .article {
     width: 90%;
 }
 
 #sidebar {
     width: 10%;
-}
-
-/** end layout **/
-
-.subtitle {
-    font-size: small;
-    color: lightgreen;
-}
-
-strong {
-    color: lightgreen;
 }
 
 /**
