@@ -4,13 +4,20 @@
     fira code
     */
 }
+:root {
+    --color-background: black;
+    --color-primary: lightgreen;
+    /*--color-secondary: lightgreen;*/
+    --color-secondary: #00ff80;
+    --color-accent: darkgreen;
+}
 
 /**
  * Overall layout
  */
 body {
-    background: black;
-    color: green;
+    background: var(--color-background);
+    color: var(--color-primary);
     display: flex;
     flex-wrap: wrap;
     font-family: "DejaVu Sans Mono", sans-serif,  monospace;
@@ -56,11 +63,11 @@ body > nav {
 
 .subtitle {
     font-size: small;
-    color: lightgreen;
+    color: var(--color-secondary);
 }
 
 strong {
-    color: lightgreen;
+    color: var(--color-secondary);
 }
 
 /**
@@ -70,15 +77,15 @@ a:link {
 }
 
 a:visited {
-  color: lightgreen;
+  color: var(--color-secondary);
 }
  */
 a {
-    color: lightgreen;
+    color: var(--color-secondary);
 }
 header a:hover,
 nav a:hover {
-    background-color: darkgreen;
+    background-color: var(--color-accent);
 }
 
 header a,
@@ -110,9 +117,8 @@ tbody td {
 }
 
 td:not(:empty):not(:first-child) {
-    #background: palegreen;
-    background: #00ff80;
-    color: black;
+    background: var(--color-secondary);
+    color: var(--color-background);
 }
 /* colors
  * https://www.canva.com/colors/color-wheel/
