@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.georgiamountainhaven.org/news/2024-01-01/</loc>
+    <lastmod>2024-01-01T14:27:34-05:00</lastmod>
+  </url><url>
+    <loc>https://www.georgiamountainhaven.org/news/</loc>
+    <lastmod>2024-01-01T14:27:34-05:00</lastmod>
+  </url><url>
     <loc>https://www.georgiamountainhaven.org/classes/</loc>
     <lastmod>2023-05-31T18:12:42-04:00</lastmod>
   </url><url>
@@ -22,6 +28,9 @@
   </url><url>
     <loc>https://www.georgiamountainhaven.org/toshindo/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.georgiamountainhaven.org/news/2023-01-01/</loc>
+    <lastmod>2023-01-01T14:26:41-05:00</lastmod>
   </url><url>
     <loc>https://www.georgiamountainhaven.org/categories/</loc>
   </url>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workouts on Georgia Mountain Haven</title>
+    <link>https://www.georgiamountainhaven.org/workout/</link>
+    <description>Recent content in Workouts on Georgia Mountain Haven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jun 2023 08:34:18 -0400</lastBuildDate><atom:link href="https://www.georgiamountainhaven.org/workout/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Every minute on the minute</title>
+      <link>https://www.georgiamountainhaven.org/workout/everyminute/</link>
+      <pubDate>Sat, 03 Jun 2023 08:34:18 -0400</pubDate>
+      
+      <guid>https://www.georgiamountainhaven.org/workout/everyminute/</guid>
+      <description>Also abbreviated EMOM1. Do a series of exercises every minute. The faster the exercises are completed that minute the more recovery time waiting for the next minute to start. The exercises and repetition count for each exercise are all adjustable. One goal is to get thirty to forty five seconds of exercise with fifteen seconds of break. This pattern can be repeated for five minutes, ten minutes, twenty minutes, or whatever time you have available.</description>
+    </item>
+    
+    <item>
+      <title>Five by Five</title>
+      <link>https://www.georgiamountainhaven.org/workout/fivebyfive/</link>
+      <pubDate>Sat, 03 Jun 2023 05:45:01 -0400</pubDate>
+      
+      <guid>https://www.georgiamountainhaven.org/workout/fivebyfive/</guid>
+      <description>Five exercises done one minute each, repeated five times with a one minute break between cycles.
+Example Also know as &amp;ldquo;Fight gone bad&amp;rdquo;, but for a nice workout &amp;ldquo;fight&amp;rdquo; and &amp;ldquo;bad&amp;rdquo; have negative connotations.</description>
+    </item>
+    
+    <item>
+      <title>Deck of Cards</title>
+      <link>https://www.georgiamountainhaven.org/workout/cards/</link>
+      <pubDate>Sat, 03 Jun 2023 05:32:29 -0400</pubDate>
+      
+      <guid>https://www.georgiamountainhaven.org/workout/cards/</guid>
+      <description>A deck of cards can provide a varying workout which is simple to use and is different most times. Each suit is assigned an exercise. The face value of the card is the number of repetitions of the exercise, with face cards valued at ten. The joker can be optional.
+Example  hearts: pushups diamonds: squats spaces: situps clubs: jumping jacks, 4 count   Draw a card Match the exercise to the suit Do that exercise as many times as the value of the card, face cards are ten Repeat until the deck is done  This can take as little as ten minutes, maybe less depending on the exercises and pace.</description>
+    </item>
+    
+  </channel>
+</rss>

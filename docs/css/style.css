@@ -4,10 +4,53 @@
     fira code
     */
 }
+/* 
+ * Color references
+ *
+ * https://www.viget.com/articles/color-contrast/
+ * https://coolors.co/contrast-checker/ffffff-000000
+ * https://coolors.co/3b6064-092235
+ * https://www.thoughtco.com/contrasting-foreground-background-colors-4061363
+ */
+:root {
+    --color-background: black;
+    --color-primary: #00f060;
+    /*--color-secondary: lightgreen;*/
+    --color-accent: #ffc000;
+    /*--color-secondary: #00ff80;*/
+    /*--color-secondary: #40ff80;*/
+    --color-secondary: #a0a0a0;
+    /*--color-accent: darkgreen;*/
+    /*
+    --color-background: black;
+    --color-primary: #1e90ff;
+    --color-secondary: lightblue;
+    --color-accent: darkblue;
 
-body {
     background: black;
-    color: green;
+    _background: #083045;
+    _color: blue;
+    _color: #cfba58;
+    _color: yellow;
+    _color: #13156;
+    _color: jet;
+    _color: #373d3f;
+    _color: raven;
+    color: white;
+    _color: #ffffff;
+    _color: #eed369;
+    _color: #cfba58; // cr color
+    _color: #161616; // cr background
+    _color: lightgreen;
+    */
+}
+
+/**
+ * Overall layout
+ */
+body {
+    background: var(--color-background);
+    color: var(--color-primary);
     display: flex;
     flex-wrap: wrap;
     font-family: "DejaVu Sans Mono", sans-serif,  monospace;
@@ -41,17 +84,23 @@ body > nav {
     min-width: 10em;
 }
 
-.subtitle {
-    font-size: small;
-    color: lightgreen;
-}
-
 .article {
     width: 90%;
 }
 
 #sidebar {
     width: 10%;
+}
+
+/** end layout **/
+
+.subtitle {
+    font-size: small;
+    color: var(--color-secondary);
+}
+
+strong {
+    color: var(--color-secondary);
 }
 
 /**
@@ -61,20 +110,23 @@ a:link {
 }
 
 a:visited {
-  color: lightgreen;
+  color: var(--color-secondary);
 }
  */
 a {
-    color: lightgreen;
+    color: var(--color-secondary);
+    /*text-decoration-line: underline;*/
 }
 header a:hover,
 nav a:hover {
-    background-color: darkgreen;
+    background-color: var(--color-secondary);
+    color: var(--color-background);
+    /*color: var(--color-accent);*/
 }
 
 header a,
 nav a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* table formatting */
@@ -101,9 +153,8 @@ tbody td {
 }
 
 td:not(:empty):not(:first-child) {
-    #background: palegreen;
-    background: #00ff80;
-    color: black;
+    background: var(--color-secondary);
+    color: var(--color-background);
 }
 /* colors
  * https://www.canva.com/colors/color-wheel/
