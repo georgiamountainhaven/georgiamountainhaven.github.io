@@ -4,12 +4,44 @@
     fira code
     */
 }
+/* 
+ * Color references
+ *
+ * https://www.viget.com/articles/color-contrast/
+ * https://coolors.co/contrast-checker/ffffff-000000
+ * https://coolors.co/3b6064-092235
+ * https://www.thoughtco.com/contrasting-foreground-background-colors-4061363
+ */
 :root {
     --color-background: black;
-    --color-primary: lightgreen;
+    --color-primary: #00f060;
     /*--color-secondary: lightgreen;*/
-    --color-secondary: #00ff80;
-    --color-accent: darkgreen;
+    --color-secondary: #ffc000;
+    /*--color-secondary: #00ff80;*/
+    --color-accent: #40ff80;
+    /*--color-accent: darkgreen;*/
+    /*
+    --color-background: black;
+    --color-primary: #1e90ff;
+    --color-secondary: lightblue;
+    --color-accent: darkblue;
+
+    background: black;
+    _background: #083045;
+    _color: blue;
+    _color: #cfba58;
+    _color: yellow;
+    _color: #13156;
+    _color: jet;
+    _color: #373d3f;
+    _color: raven;
+    color: white;
+    _color: #ffffff;
+    _color: #eed369;
+    _color: #cfba58; // cr color
+    _color: #161616; // cr background
+    _color: lightgreen;
+    */
 }
 
 /**
@@ -82,15 +114,18 @@ a:visited {
  */
 a {
     color: var(--color-secondary);
+    /*text-decoration-line: underline;*/
 }
 header a:hover,
 nav a:hover {
-    background-color: var(--color-accent);
+    background-color: var(--color-secondary);
+    color: var(--color-background);
+    /*color: var(--color-accent);*/
 }
 
 header a,
 nav a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* table formatting */
