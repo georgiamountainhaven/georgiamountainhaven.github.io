@@ -2,6 +2,7 @@
   <header>
     <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
   </header>
+  <h6>{{ .Date.Format "2006 / 02 / 01" }}</h6>
   {{ .Summary }}
   <footer>
   {{ if .Truncated }}

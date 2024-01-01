@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ .Content }}
 <h2 id="latest-news">Latest news</h2>
-{{ range first 5 (where .Site.Pages "Section" "news") }}
+{{ range first 5 (where .Site.RegularPages "Section" "news") }}
   {{ .Render "summary" }}
 {{ end }}
 {{ partial "footer.html" . }}

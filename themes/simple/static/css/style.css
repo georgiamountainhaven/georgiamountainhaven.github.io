@@ -16,9 +16,10 @@
     --color-background: black;
     --color-primary: #00f060;
     /*--color-secondary: lightgreen;*/
-    --color-secondary: #ffc000;
+    --color-accent: #ffc000;
     /*--color-secondary: #00ff80;*/
-    --color-accent: #40ff80;
+    /*--color-secondary: #40ff80;*/
+    --color-secondary: #a0a0a0;
     /*--color-accent: darkgreen;*/
     /*
     --color-background: black;
