@@ -1,0 +1,11 @@
+<article class="post">
+  <header>
+    <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+  </header>
+  {{ .Summary }}
+  <footer>
+  {{ if .Truncated }}
+  <a href="{{ .RelPermalink }}"><nobr>Read More…</nobr></a>
+  {{ end }}
+  </footer>
+</article>
